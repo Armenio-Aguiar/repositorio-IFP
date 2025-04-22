@@ -1,0 +1,299 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+
+}
+.text-msg{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 43px;
+	border: none;
+}
+.text-msg P{
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+	margin:10px 0 0 0;
+}
+.rep-text{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 6);
+	display: inline-block;
+}
+.rep-text p{
+	font-size: 35px;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+form .form-group{
+	position: absolute;
+	width: 95%;
+	border-radius: 5px;
+	top: 30%;
+	left:12px;
+	margin: 0;
+	padding: 20px;
+	background: transparent;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 7px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+form .form-group #primeiro{
+	width: 40%;
+	height: 40px;
+	margin: 10px 50px 0px 50px;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	background: transparent;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;                                           
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	
+}
+form .form-group #ultimo{
+	width: 40%;
+	height: 40px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	margin-left: 100px;
+	background: transparent;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+}
+
+form .form-group #email{
+	width: 40%;
+	height: 40px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	background: transparent;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	margin:40px 0 0 50px;
+	
+}
+form .form-group #data{
+	width: 40%;
+	height: 40px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	outline: none;
+	text-align: center;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-right: none;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	margin:40px 0 0 150px;
+}
+form .form-group .senha{
+	width: 40%;
+	height: 40px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	outline: none;
+	text-align: center;
+	background: transparent;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	
+	margin:40px 0 0 50px;
+
+}
+form .form-group #confsenha{
+	margin-left: 150px;
+}
+form .box-label{
+	display: flex;
+	position: relative;
+	margin-top: 30px;
+}
+fieldset{
+	margin-top: -18px;
+	width: 25%;
+	margin-left: 50px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	height: 40px;
+}
+fieldset input[type='radio']{
+	position: relative;
+	margin-top: -20px;
+	margin-left: 80px;
+	cursor: pointer;
+}
+fieldset label{
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-top: 30px;
+}
+form .box-label .tipo_curso{
+	margin-left: 100px;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 40px;
+}
+form .box-label .Nivel{
+	margin-left: 95px;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+}
+.Univeriatario{
+	display: flex;
+	position: relative;
+	margin: 40px 0 0 50px;
+}
+.Univeriatario .universidade{
+	position: relative;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 35px;
+	margin-left: 125px;	
+}
+.Univeriatario .estudo{
+	position: relative;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 35px;
+	margin-left: 19px;
+	
+}
+.Univeriatario .ano{
+	position: relative;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 35px;
+	margin-left: 107px;	
+
+}
+.alunos{
+	display: flex;
+	position: relative;
+	margin-left: 30%;
+	margin-top: 40px;
+}
+.alunos .escola{
+	position: relative;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 35px;
+}
+.alunos .classe{
+	position: relative;
+	width: 25%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px 0px;
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	height: 35px;
+	margin-left: 50px;
+}
+input::-webkit-input-placeholder{
+	font-size: 15px;
+	color:rgba(0, 0, 0, 0.9);
+	font-family: arial;
+}
+.btn-conta{
+	position: relative;
+	margin-top: 10%;
+}
+.btn-conta input[type='submit']{
+	position: relative;
+	outline: none;
+	border: none;
+	width: 200px;
+	height:40px ;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-family: sans-serif;
+	margin-left: 45%;
+	background:rgba(0, 0, 0, 0.6);
+
+}
+.btn-conta input[type='submit']:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.form-group:hover .btn-conta input[type='submit']{
+	transition: 0.5s;
+}
+legend{
+	font-family: sans-serif;
+	font-size: 15px;
+	background: white;
+	padding: 5px;
+}
+
+option{
+	font-size: 15px;
+	font-family: sans-serif;
+	border: none;
+}
+select{
+	font-family: sans-serif;
+	font-size: 14px;
+	
+}
+.invalid{
+	border-bottom: 2px solid red;
+	transition: 0.8s;
+}
+.valid{
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);#00ff00;
+	transition: 0.8s;
+}
